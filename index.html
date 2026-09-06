@@ -60,21 +60,26 @@
                 <tbody>
                     <tr>
                         <th scope="row"><code>img</code></th>
-                        <td>TODO</td>
-                        <td>TODO</td>
-                        <td>TODO</td>
+                        <td>A standalone, meaningful graphic that can be cached and swapped without editing page markup.
+                        </td>
+                        <td>Whole element only — you can size the box but cannot reach internal shapes or colors.</td>
+                        <td>A descriptive <code>alt</code> attribute.</td>
                     </tr>
                     <tr>
                         <th scope="row">Inline SVG</th>
-                        <td>TODO</td>
-                        <td>TODO</td>
-                        <td>TODO</td>
+                        <td>When CSS needs to style parts of the graphic or when its shapes must animate or respond.
+                        </td>
+                        <td>Full reach — every internal shape and fill is styleable through its classes.</td>
+                        <td>A programmatic name and description via <code>&lt;title&gt;</code>,
+                            <code>&lt;desc&gt;</code>, and <code>aria-labelledby</code>.
+                        </td>
                     </tr>
                     <tr>
                         <th scope="row">CSS background</th>
-                        <td>TODO</td>
-                        <td>TODO</td>
-                        <td>TODO</td>
+                        <td>Decorative texture or atmosphere where the graphic adds no essential information.</td>
+                        <td>Appearance only — size/position via CSS; internal shapes are not individually reachable.
+                        </td>
+                        <td>None needed — mark it decorative; real meaning lives in surrounding text.</td>
                     </tr>
                 </tbody>
             </table>
