@@ -50,12 +50,15 @@ svg {
 }
 
 .decorative {
-    min-height: 14rem;
+    min-height: 20rem;
     background-color: #f1f1f1;
     background-image: url("comparison.svg");
-    background-position: center;
+    background-position: center bottom 1rem;
     background-repeat: no-repeat;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 table {
