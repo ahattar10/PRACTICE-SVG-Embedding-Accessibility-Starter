@@ -23,10 +23,21 @@
                 to
                 render.</p>
         </section>
-        <section class="decorative">
-            <h2>3 · Decorative background</h2>
-            <p>This section needs a decorative version that contributes no essential information or accessibility-tree
-                noise.</p>
+        <section>
+            <h2>2 · Inline, styleable graphic</h2>
+            <svg class="inline-svg" viewBox="0 0 600 300" role="img" aria-labelledby="cmp-title cmp-desc">
+                <title id="cmp-title">Instructional comparison graphic</title>
+                <desc id="cmp-desc">Two circles compare a smaller 14 percent value with a larger 29 percent value.</desc>
+                <rect width="600" height="300" class="cmp-back"></rect>
+                <circle class="primary-shape" cx="180" cy="140" r="70"></circle>
+                <circle class="accent-shape" cx="420" cy="120" r="110"></circle>
+                <path class="baseline" d="M90 250H510"></path>
+                <text x="180" y="275" text-anchor="middle" font-family="Arial" font-size="24">14%</text>
+                <text x="420" y="275" text-anchor="middle" font-family="Arial" font-size="24">29%</text>
+            </svg>
+            <p>This SVG is <em>inline</em>, so CSS can style its internals. It is given a programmatic
+                <strong>name</strong> (<code>&lt;title&gt;</code>) and <strong>description</strong>
+                (<code>&lt;desc&gt;</code>) linked through <code>aria-labelledby</code>.</p>
         </section>
         <section>
             <h2>Method comparison</h2>
