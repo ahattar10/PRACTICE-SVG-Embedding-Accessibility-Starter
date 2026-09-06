@@ -77,3 +77,23 @@ td {
 .accent-shape {
     fill: var(--graphic-accent)
 }
+
+.inline-svg {
+    width: 100%;
+    height: auto;
+    margin: .5rem auto
+}
+
+.cmp-back {
+    fill: #f5f5f5
+}
+
+.baseline {
+    stroke: var(--graphic-neutral);
+    stroke-width: 2
+}
+
+.inline-svg text {
+    fill: var(--graphic-neutral);
+    font-size: 1.4rem
+}
